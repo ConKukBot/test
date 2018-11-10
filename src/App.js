@@ -3,6 +3,7 @@ import './App.css';
 
 class App extends Component {
   render() {
+    throw new Error('test');
     return (
       <div className="App">
         <h1>Hi test 2 2 2 2</h1>

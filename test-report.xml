@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite id="0" name="D:\Projects\reactFromScratch\react-complete-guide\src\App.test.js" errors="0" package="D:\Projects\reactFromScratch\react-complete-guide\src\App.test.js" hostname="localhost" tests="1" failures="0" time="1.485" timestamp="2018-11-10T15:28:49">
+  <testsuite id="0" name="D:\Projects\reactFromScratch\react-complete-guide\src\App.test.js" errors="0" package="D:\Projects\reactFromScratch\react-complete-guide\src\App.test.js" hostname="localhost" tests="1" failures="1" time="1.483" timestamp="2018-11-10T20:49:52">
     <properties>
     </properties>
     <testcase classname="renders without crashing" name="renders without crashing" time="0">
+      <failure message="Error: test
+    at App.render (D:\Projects\reactFromScratch\react-complete-guide\src\App.js:6:11)
+    at finishClassComponent (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:14299:31)
+    at updateClassComponent (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:14262:10)
+    at beginWork (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:15087:16)
+    at performUnitOfWork (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:17809:12)
+    at workLoop (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:17849:24)
+    at renderRoot (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:17935:7)
+    at performWorkOnRoot (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:18823:7)
+    at performWork (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:18735:7)
+    at performSyncWork (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:18709:3)
+    at requestWork (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:18578:5)
+    at scheduleWork (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:18387:5)
+    at scheduleRootUpdate (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:19055:3)
+    at updateContainerAtExpirationTime (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:19083:10)
+    at updateContainer (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:19140:10)
+    at ReactRoot.Object.&lt;anonymous&gt;.ReactRoot.render (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:19402:3)
+    at D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:19542:14
+    at unbatchedUpdates (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:18938:10)
+    at legacyRenderSubtreeIntoContainer (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:19538:5)
+    at Object.render (D:\Projects\reactFromScratch\react-complete-guide\node_modules\react-dom\cjs\react-dom.development.js:19599:12)
+    at Object.render (D:\Projects\reactFromScratch\react-complete-guide\src\App.test.js:7:12)
+    at Object.asyncJestTest (D:\Projects\reactFromScratch\react-complete-guide\node_modules\jest-jasmine2\build\jasmine_async.js:108:37)
+    at resolve (D:\Projects\reactFromScratch\react-complete-guide\node_modules\jest-jasmine2\build\queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\Projects\reactFromScratch\react-complete-guide\node_modules\jest-jasmine2\build\queue_runner.js:43:19)
+    at promise.then (D:\Projects\reactFromScratch\react-complete-guide\node_modules\jest-jasmine2\build\queue_runner.js:87:41)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)" type="AssertionError">
+      </failure>
     </testcase>
     <system-out/>
     <system-err/>
